@@ -1,0 +1,19 @@
+<div id="container">
+  <a class = "btn" href="">
+  클릭
+  </a>
+</div>
+
+
+==> $("#container.btn")
+
+
+<div id="footer">
+  <a class="btn" href="">
+  <span class="name">지도 클릭</span>
+  </a>
+</div>
+
+
+
+==> $(".btn .name")
