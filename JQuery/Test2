@@ -1,0 +1,21 @@
+
+var num1 = 1;
+var char1 = "1";
+
+alert("경고창");
+
+var myName = "SaltedCaramel";
+
+alert("myName");
+
+
+if(num == 1) {  
+  document.write("num1은"+num1+" 입니다");
+ }else if(조건) {
+ 
+ }else if(조건) {
+ 
+ }else {
+    document.write("num1은"+num1+" 입니다");
+ 
+ }
