@@ -1,0 +1,6 @@
+select ename, REPLACE(sal,0,'*')
+from emp;
+
+// ename,과 월급을 출력
+// 테이블: emp
+// REPLACE(sal,0,'*'): sal 에서 0을 * 로 변경해서 출력
