@@ -1,0 +1,6 @@
+select INSTR('SMITH','M')
+from DUAL;
+
+
+// 사원 이름 'SMITH'에서 알파벳 철자 'M'이 몇번째 자리에 있는지 출력 
+// 테이블: DUAL
