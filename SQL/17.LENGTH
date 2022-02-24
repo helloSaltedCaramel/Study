@@ -1,0 +1,7 @@
+select ename, LENGTH(ename)
+from emp;
+
+
+// 출력 : ename과 문자열 길이를 출력
+// 테이블: emp 
+// LENGTH(ename): 이름 철자 개수를 
