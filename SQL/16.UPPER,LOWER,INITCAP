@@ -1,0 +1,8 @@
+select UPPER(ename), LOWER(ename), INITCAP(ename)
+from emp;
+
+
+
+//UPPER: 대문자로 출력
+//LOWER: 소문자로 출력
+//INITCAP: 첫번째 철자만 대문자로 출력
