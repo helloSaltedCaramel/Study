@@ -1,0 +1,5 @@
+select ename, MOTHS_BETWEEN(sysdate, hiredate)
+from emp;
+
+-- 이름을 출력하고 입사한 날짜부터 오늘까지 총 몇 달 근무??
+-- MOTHS_BETWEEN(sysdate, hiredate): MOTHS_BETWEEN(최신날짜, 예전날짜)
