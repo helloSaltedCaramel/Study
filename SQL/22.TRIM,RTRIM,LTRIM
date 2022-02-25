@@ -1,0 +1,20 @@
+select 'smith', LTRIM('smith','s'),RTRIM('smith','h'),TRIM('s' frim 'smith')
+from dual;
+
+-- LTRIM('smith','s'): 왼쪽 철자인 s를 잘라서 출력
+-- RTRIM('smith','h'): 오른쪽 철자인 h를 잘라서 출력
+-- TRIM('s' frim 'smith'): 양쪽 철자인 s를 잘라서 출력
+
+
+select ename, sal
+from emp
+where ename ='JACK';
+
+-- 이름이 JACK인 사원의 이름과 월급을 조회
+-- table : emp
+
+
+이때 공백을 가지고 있으면 JACK라는 사원을 출력 못할 수 있기 때문에
+select ename, sal
+from emp
+where RTRIM(ename)='JACK';
