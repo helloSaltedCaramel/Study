@@ -1,0 +1,5 @@
+select ename, LPAD(sal,10,'*') as salary1, RPAD(sal,10,'*') as salary2
+from emp;
+
+-- table: emp
+-- LPAD(sal,10,'*') : ******5000=> 왼쪽(L)으로 채워넣다(PAD) , 월급 컬럼을 10자리수로 하고 월급을 출력하고 남은 자리에 *로 채우기
