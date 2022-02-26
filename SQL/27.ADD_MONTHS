@@ -1,0 +1,9 @@
+select ADD_MONTHS(TO_DATE('2019-05-01', 'RRRR-MM-DD'),100)
+from DUAl;
+
+-- 2019-05-01로 부터 100달 뒤의 날짜를 구하기 
+
+select TO_DATE('2019-05-01', 'RRRR-MM-DD') + 100
+from DUAL;
+
+-- 2019-05-01로부터 100일 뒤에 돌아오는 날짜는?
