@@ -1,0 +1,4 @@
+select NEXT_DAY(sysdate,'화요일') as "다음 날짜"
+from DUAL;
+
+-- 오늘로 부터 앞으로 돌아올 화요일의 날짜를 출력
