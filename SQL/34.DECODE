@@ -1,0 +1,4 @@
+select ename, deptno, decode(deptno,10,300,20,400,0) as 보너스
+from emp;
+
+-- 부서 번호가 10번이면 보너스가 300 20번이면 400, 나머지는 0으로 출력
