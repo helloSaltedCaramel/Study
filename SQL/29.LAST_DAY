@@ -1,0 +1,14 @@
+select '2019/05/22' as 날짜, LAST_DAY('2019/05/22') as "마지막 날짜" 
+from DUAL;
+
+-- 2019/05/22 해당 달의 마지막 날짜 출력
+-- table: DUAL
+
+
+
+select LAST_DAY(sysdate)- sysdate as "남은 날짜"
+from DUAL;
+
+-- 오늘부터 이번달 말일까지 총 며칠이 남았는지 출렭
+-- out 남은날짜 : 9
+
