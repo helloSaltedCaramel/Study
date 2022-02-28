@@ -1,0 +1,16 @@
+-- 날짜형으로 데이터 유형 변환하기
+
+select ename, hiredate
+from emp
+where hiredate = TO_DATE('81/11/17','RR/MM/DD');
+
+-- '81/11/17'에 입사한 직원의 이름과 입사년도 
+
+
+select *
+from nls_session_parameters
+where parameter ='nls_date_format';
+
+-- 현재 접속한 세션의 날짜 형식을 확인하는 쿼리
+
+
