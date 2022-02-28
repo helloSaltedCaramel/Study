@@ -1,0 +1,27 @@
+select ename, job,sal, case when sal >= 3000 then 500
+                            when sal >= 2000 then 300
+                            when sal >= 1000 then 200
+                            else 0 end as bonus
+from emp
+where job in('SALESMAN','ANALYST');
+
+
+-- 직업이 'SALESMAN','ANALYST' 중 
+-- table : emp
+-- 출력: 이름과 직업 급여와 보너스
+-- 3000이상 보너스 500, 2000이상 3000미만 보너스 300, 1000이상 2000미만 보너스 200, 나머지는 0
+
+
+
+
+select ename, job, comm case when comm is null then 500
+                             else 0 end bonus
+  from emp
+  where job in ('SALESMAN', 'ANALYST');
+  
+ -- 출력: 이름, 직엄 커미션, 보너스
+ -- 보너스는 커미션이 null이면 500으로 출력
+ -- null이 아니면 0 출력
+ 
+ 
+ 
