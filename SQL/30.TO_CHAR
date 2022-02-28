@@ -1,0 +1,21 @@
+select ename, TO_CHAR(hiredate,'DAY') as 요일, TO_CHAR(sal, '999,999') as 월급
+from emp
+where ename='SCOTT';
+
+-- where ename='SCOTT' : 'SCOTT' 사원의
+-- table: emp
+-- select ename, TO_CHAR(hiredate,'DAY') as 요일, TO_CHAR(sal, '999,999') as 월급 : 이름, 입사한 요일 츌력, 월급을 천단위로 콤마 구분 후 출력
+-- TO_CHAR(hiredate,'DAY') as 요일 : 입사일을 요일로 출력
+-- TO_CHAR(sal, '999,999') as 월급 : 월급을 출력할때 천단위로 출력 
+
+select hiredate, TO_CHAR(hiredate,'RRRR') as 연도, TO_CHAR(hiredate,'MM') as 달, TO_CHAR(hiredate,'DD') as 일, TO_CHAR(hiredate,'DAY') as 요일
+from emp
+where ename='KING';
+
+
+select ename, hiredate
+from emp
+where TO_CHAR(hiredate,'RRRR')='1981';
+
+-- 1981년도에 입사한 사원의 이름과 입사년도를 출력
+-- table: emp
