@@ -1,0 +1,19 @@
+select deptno, sum(sal)
+from emp
+group by deptno;
+
+-- 부서번호와 부서 번호별 토탈 월급을 출력
+
+select job, sum(sal)
+from emp
+group by job
+order by sum(sal) desc;
+
+-- 직업, 직업별 토탈월급, 직업별 토탈월급이 높은 순
+
+select job, sum(sal)
+from emp
+group by job
+having sum(sal) >=4000;
+
+-- 그룹 함수에 조건을 줄때, where x -> having절 
