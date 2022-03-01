@@ -1,0 +1,15 @@
+select min(sal)
+from emp
+where job = 'salesman';
+
+-- table: emp
+-- 최소월급을 출력, job = 'salesman'인 사원중
+
+select job, min(sal) 최소값
+from emp
+where job = 'salesman'
+group by job 
+order by 최소값 desc;
+
+-- 최소 월급이 높은 순서부터 출력 
+
