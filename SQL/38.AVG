@@ -1,0 +1,12 @@
+select avg(comm)
+from emp;
+
+
+-- 사원 테이블의 평균 월급
+
+
+select round(avg(nvl(comm,0)))
+from emp;
+
+-- null값을 0을 치환하여 평균값 출력
+
