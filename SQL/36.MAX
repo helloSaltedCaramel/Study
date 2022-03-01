@@ -1,0 +1,13 @@
+select max(sal)
+from emp;
+
+
+-- 사원 테이블에서 최대 월급을 출력
+
+
+select job, max(sal)
+from emp
+where job = 'salesman'
+group by job;
+
+-- job 칼럼에서 여러개의 행이 출력되는 것을 groub by절로 그룹핑해서 출력
