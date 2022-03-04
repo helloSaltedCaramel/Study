@@ -1,0 +1,7 @@
+select ename,job,sal,rank() over (order by sal desc) 순위
+from emp
+where job in('analyst','manager');
+
+
+-- 직업이 'analyst','manager' 인 사람들의 이름, 직업, 월급, 월급의 순위 
+-- rank() : 순위를 출력
