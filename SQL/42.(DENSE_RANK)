@@ -1,4 +1,13 @@
+-- 데이터 분석 함수로 출력 
 select ename, job, sal, rank() over(order by sal desc) as rank,
                         dense_rank() over (order by sal desc) as dense_rank
 from emp
 where job in('analyst','manager');
+
+
+
+-- 출력 : ename, job, sal, rank, dense_rank
+-- 조건: 직업 = 'analyst','manager'
+-- 순위가 1위인 사원 두명이 있을 경우 중복이 3위가 아니고 2위로 출력 =  dense_rank() 
+-- rank 는 1위 다음 3위
+-- dense_rank 1위 다음 2위
