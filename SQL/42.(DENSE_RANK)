@@ -1,0 +1,4 @@
+select ename, job, sal, rank() over(order by sal desc) as rank,
+                        dense_rank() over (order by sal desc) as dense_rank
+from emp
+where job in('analyst','manager');
