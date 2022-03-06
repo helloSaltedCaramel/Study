@@ -1,0 +1,4 @@
+select ename,job,sal, 
+ntile(4) over (order by sal desc nulls last) 등급
+from emp
+where job in ('analyst', 'manager', 'clerk');
