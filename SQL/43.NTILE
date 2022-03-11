@@ -2,3 +2,7 @@ select ename,job,sal,
 ntile(4) over (order by sal desc nulls last) 등급
 from emp
 where job in ('analyst', 'manager', 'clerk');
+
+
+-- 출력: 이름, 월급, 직업, 월급의 등급
+-- 월급의 등급을 4단계로 나눠서 1등급(0~25%), 2등급(25~50%), 3등급(50~75%), 4등급(75~100%) 
