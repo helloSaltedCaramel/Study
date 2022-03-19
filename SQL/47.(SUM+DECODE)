@@ -1,0 +1,6 @@
+select sum(decode(deptno,10,sal)) as "10",
+        sum(decode(deptno,20,sal)) as "20".
+        sum(decode(deptno,30,sal)) as "30"
+ from emp;
+ 
+ -- 부서번호, 부서번호 별 토탈 월급을 출력, 가로로
