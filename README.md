@@ -5,4 +5,4 @@
 
 
 ## programmers
-a와 b 출력하기 https://github.com/helloSaltedCaramel/TIL/blob/main/Algorithm_Solutions/src/com/cho/programmers/level0/Soultion_001.py
+a와 b 출력하기(https://github.com/helloSaltedCaramel/TIL/blob/main/Algorithm_Solutions/src/com/cho/programmers/level0/Soultion_001.py)
