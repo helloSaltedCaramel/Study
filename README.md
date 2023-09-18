@@ -9,3 +9,5 @@
 ### level 0
 
 001 [a와 b 출력하기](https://github.com/helloSaltedCaramel/TIL/blob/main/Algorithm_Solutions/src/com/cho/programmers/level0/Soultion_001.py)
+002 [문자열 반복해서 출력하기](https://github.com/helloSaltedCaramel/TIL/blob/main/Algorithm_Solutions/src/com/cho/programmers/level0/Soultion_002.py)
+003 [대소문자 바꿔서 출력하기]((https://github.com/helloSaltedCaramel/TIL/blob/main/Algorithm_Solutions/src/com/cho/programmers/level0/Soultion_003.py))
